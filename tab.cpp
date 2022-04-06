@@ -13,7 +13,7 @@ void printTab(const int * const tab, unsigned int size) //wypisuje tablice
 
 void reverseTab(int * const tab, unsigned int size) //odrwaca tablice
 {
-  for(unsigned int i = 0;i<=size/2;i++)
+  for(unsigned int i = 0;i<size/2;i++)
   {
      std::swap(tab[i],tab[size-i-1]);
   }

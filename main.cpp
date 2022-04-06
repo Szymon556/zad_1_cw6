@@ -14,6 +14,7 @@ srand(time(NULL));
        
         
     }
+    printTab(tab, sizeof ( tab ) / sizeof ( int ));
     reverseTab(tab,sizeof ( tab ) / sizeof ( int ));//wysyłamy wartości
     printTab(tab, sizeof ( tab ) / sizeof ( int ));
     return 0;
